@@ -1,0 +1,10 @@
+<resources>
+    <string name="app_name">InterviewPrep</string>
+    <string name="label_fragment_a">FragmentA</string>
+    <string name="label_fragment_b">FragmentB</string>
+    <string name="label_fragment_search">FragmentSearch</string>
+    <string name="navigate_to_fragmenta">Navigate to FragmentA</string>
+    <string name="navigate_to_fragmentb">Navigate to FragmentB</string>
+    <string name="navigate_to_secondactivity">Navigate to SecondActivity</string>
+
+</resources>

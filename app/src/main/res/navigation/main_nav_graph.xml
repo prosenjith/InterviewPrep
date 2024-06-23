@@ -1,0 +1,33 @@
+<?xml version="1.0" encoding="utf-8"?>
+<navigation xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:id="@+id/main_nav_graph"
+    app:startDestination="@id/aFragment">
+
+    <fragment
+        android:id="@+id/aFragment"
+        android:name="com.example.interviewprep.ui.basic.FragmentA"
+        android:label="@string/label_fragment_a"
+        tools:layout="@layout/fragment_a">
+        <action
+            android:id="@+id/action_aFragment_to_bFragment"
+            app:destination="@id/bFragment" />
+        <action
+            android:id="@+id/action_aFragment_to_searchFragment"
+            app:destination="@id/searchFragment" />
+    </fragment>
+
+    <fragment
+        android:id="@+id/bFragment"
+        android:name="com.example.interviewprep.ui.basic.FragmentB"
+        android:label="@string/label_fragment_b"
+        tools:layout="@layout/fragment_a" />
+    <fragment
+        android:id="@+id/searchFragment"
+        android:name="com.example.interviewprep.ui.search.FragmentSearch"
+        android:label="@string/label_fragment_search"
+        tools:layout="@layout/fragment_a" />
+
+
+</navigation>
